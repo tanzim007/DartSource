@@ -125,7 +125,7 @@ void main() {
   g.replaceRange(0, 5, ["UCL","Guns & Roses","muck","shit","Gone"]);
   print(g);
 
-//***Mapping Function */
+//***Mapping Function with literal*/
   var myMap = {
 
     "Name" : "Tanzim",
@@ -133,8 +133,22 @@ void main() {
     "Height" : "5 feet 6 inch"
 
   };
+
+  // adding values to map at runtime
+  
+  myMap ["BD"] = "10 sep";
+
   print(myMap);
   // showing 1 data
   print(myMap["Name"]);
+
+  //mapping by Constructor
+  var map = new Map();
+  map['Name'] = 'Goku';
+  map['age'] = '2222';
+  map['son'] = 'gohan';
+
+  print(map);
+  print(map['son']);
 
 }
