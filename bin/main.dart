@@ -125,7 +125,7 @@ void main() {
   g.replaceRange(0, 5, ["UCL","Guns & Roses","muck","shit","Gone"]);
   print(g);
 
-//***Mapping Function with literal*/
+//***Mapping with literal*/
   var myMap = {
 
     "Name" : "Tanzim",
@@ -150,5 +150,7 @@ void main() {
 
   print(map);
   print(map['son']);
+
+
 
 }
